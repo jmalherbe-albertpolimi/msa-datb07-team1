@@ -17,3 +17,11 @@ def test_total_revenue_empty():
 
 def test_monthly_revenue():
     assert monthly_revenue(ROWS) == {"2024-01": 45.5, "2024-02": 35.0}
+
+
+def test_top_products():
+    from sales_analysis import top_products
+
+    assert top_products(ROWS, n=2) == ["Gizmo", "Gadget"]   
+    
+

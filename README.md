@@ -15,6 +15,7 @@ A small Python package that computes revenue figures from `data/sales.csv`.
 - load a sales CSV into a list of typed rows
 - total revenue
 - monthly revenue
+- top products
 
 ## Running the tests
 
