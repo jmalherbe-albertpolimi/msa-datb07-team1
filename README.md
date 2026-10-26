@@ -25,3 +25,12 @@ python -m pytest
 ## Dependencies
 
 - pytest: runs the tests
+
+## Usage
+- Install pytest
+-pip install pytest
+- Run tests
+- pytest
+- Compute total revenue
+- PYTHONPATH=src python -c "from sales_analysis import load_sales, total_revenue; print(total_revenue(load_sales('data/sales.csv')))"
+Expected output: 6945.5
